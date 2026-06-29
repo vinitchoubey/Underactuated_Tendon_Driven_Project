@@ -1,0 +1,13 @@
+# Ignore compiled object files and build output
+*.o
+*.a
+*.so
+*.elf
+*.bin
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore your credentials file (if you create a secrets.h)
+secrets.h
